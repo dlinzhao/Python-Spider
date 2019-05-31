@@ -1,5 +1,5 @@
 # Python-Spider
-some of python spider
+Some python crawler scripts
 
 # Prerequisites
 - Python3
@@ -7,4 +7,6 @@ some of python spider
 - beautifulsoup4
 - PrettyTable
 - urllib
-
+- selenium
+- lxml
+- webdriver [Chrome](http://chromedriver.chromium.org/downloads), [Firefox](https://github.com/mozilla/geckodriver/releases/)
