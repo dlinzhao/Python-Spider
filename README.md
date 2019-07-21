@@ -9,4 +9,5 @@ Some python crawler scripts
 - urllib
 - selenium
 - lxml
+- fake_useragent
 - webdriver [Chrome](http://chromedriver.chromium.org/downloads), [Firefox](https://github.com/mozilla/geckodriver/releases/)
