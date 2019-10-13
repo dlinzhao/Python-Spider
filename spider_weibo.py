@@ -27,9 +27,9 @@ def get_page(page=1):
         'openApp': 0,
         'since_id': page
     }   
-    url = base_url + urlencode(params)
+    # url = base_url + urlencode(params)
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(base_url, params=params, headers=headers)
         if response.status_code == 200:
             return response.json()
     except requests.ConnectionError as e:
