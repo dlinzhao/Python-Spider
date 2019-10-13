@@ -27,8 +27,8 @@ def get_page(page=1):
         'openApp': 0,
         'since_id': page
     }   
-    # url = base_url + urlencode(params)
     try:
+        # 通过requests的get方法传递异步请求参数
         response = requests.get(base_url, params=params, headers=headers)
         if response.status_code == 200:
             return response.json()
